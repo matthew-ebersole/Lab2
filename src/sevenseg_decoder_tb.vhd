@@ -28,13 +28,13 @@ use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
-library UNISIM;
-use UNISIM.VComponents.all;
+-- library UNISIM;
+-- use UNISIM.VComponents.all;
 
 entity sevenseg_decoder_tb is
 end sevenseg_decoder_tb;
 
-architecture test_bench of sevenseg_decoder_tb is
+architecture Behavioral of sevenseg_decoder_tb is
    component sevenseg_decoder is 
    port ( i_Hex : in STD_LOGIC_VECTOR (3 downto 0);
            o_seg_n : out STD_LOGIC_VECTOR (6 downto 0));
@@ -91,4 +91,4 @@ begin
     end process;
     
 
-end test_bench;
+end Behavioral;
