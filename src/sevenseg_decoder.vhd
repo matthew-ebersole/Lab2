@@ -46,13 +46,13 @@ architecture Behavioral of sevenseg_decoder is
     signal c_Sg : std_logic := '1';
 
 begin
-    o_seg_n(0) <= c_Sa;
-    o_seg_n(1) <= c_Sb;
-    o_seg_n(2) <= c_Sc;
+    o_seg_n(6) <= c_Sa;
+    o_seg_n(5) <= c_Sb;
+    o_seg_n(4) <= c_Sc;
     o_seg_n(3) <= c_Sd;
-    o_seg_n(4) <= c_Se;
-    o_seg_n(5) <= c_Sf;
-    o_seg_n(6) <= c_Sg;
+    o_seg_n(2) <= c_Se;
+    o_seg_n(1) <= c_Sf;
+    o_seg_n(0) <= c_Sg;
 
     
 with i_Hex select
