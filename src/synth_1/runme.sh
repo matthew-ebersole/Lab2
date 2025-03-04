@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log sevenseg_decoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sevenseg_decoder.tcl
+EAStep vivado -log top_basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl

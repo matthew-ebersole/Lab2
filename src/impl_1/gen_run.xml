@@ -1,73 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1740710190">
-  <File Type="REPORTS-TCL" Name="sevenseg_decoder_reports.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="sevenseg_decoder_power_summary_routed.pb"/>
-  <File Type="BITSTR-MMI" Name="sevenseg_decoder.mmi"/>
-  <File Type="OPT-DRC" Name="sevenseg_decoder_drc_opted.rpt"/>
-  <File Type="BG-DRC" Name="sevenseg_decoder.drc"/>
-  <File Type="ROUTE-STATUS-PB" Name="sevenseg_decoder_route_status.pb"/>
-  <File Type="BG-BGN" Name="sevenseg_decoder.bgn"/>
-  <File Type="PLACE-UTIL" Name="sevenseg_decoder_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="sevenseg_decoder_utilization_placed.pb"/>
-  <File Type="PLACE-IO" Name="sevenseg_decoder_io_placed.rpt"/>
-  <File Type="BG-BIN" Name="sevenseg_decoder.bin"/>
-  <File Type="PLACE-CTRL" Name="sevenseg_decoder_control_sets_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="sevenseg_decoder_power_routed.rpx"/>
-  <File Type="ROUTE-DCP" Name="sevenseg_decoder_routed.dcp"/>
-  <File Type="BITSTR-MSK" Name="sevenseg_decoder.msk"/>
-  <File Type="BITSTR-RBT" Name="sevenseg_decoder.rbt"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="sevenseg_decoder_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="sevenseg_decoder_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="sevenseg_decoder_route_status.rpt"/>
-  <File Type="PA-TCL" Name="sevenseg_decoder.tcl"/>
-  <File Type="ROUTE-PWR" Name="sevenseg_decoder_power_routed.rpt"/>
-  <File Type="ROUTE-DRC" Name="sevenseg_decoder_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="sevenseg_decoder_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="sevenseg_decoder_drc_routed.pb"/>
-  <File Type="BITSTR-SYSDEF" Name="sevenseg_decoder.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="sevenseg_decoder_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sevenseg_decoder_methodology_drc_routed.rpx"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1741066256">
+  <File Type="PA-TCL" Name="top_basys3.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_basys3_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="top_basys3_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="top_basys3_opt.dcp"/>
+  <File Type="OPT-DRC" Name="top_basys3_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_basys3_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_basys3.hwdef"/>
+  <File Type="OPT-TIMING" Name="top_basys3_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="top_basys3_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="top_basys3_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="top_basys3_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="top_basys3_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_basys3_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_basys3_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="top_basys3_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_basys3_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_basys3_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_basys3_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_basys3_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_basys3_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="top_basys3_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="top_basys3_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_basys3_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_basys3_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="top_basys3_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_basys3_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="top_basys3_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_basys3_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_basys3_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_basys3_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_basys3_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_basys3_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_basys3_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_basys3_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_basys3_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_basys3_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="top_basys3_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_basys3_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_basys3_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_basys3_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_basys3_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_basys3_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_basys3_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_basys3_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_basys3_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="top_basys3_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_basys3_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_basys3_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_basys3_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="top_basys3_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_basys3_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_basys3_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_basys3_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_basys3_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_basys3_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_basys3_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_basys3_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_basys3_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="top_basys3.bit"/>
+  <File Type="BG-BIN" Name="top_basys3.bin"/>
+  <File Type="BITSTR-MSK" Name="top_basys3.msk"/>
+  <File Type="BITSTR-RBT" Name="top_basys3.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_basys3.nky"/>
+  <File Type="BITSTR-BMM" Name="top_basys3_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="top_basys3.mmi"/>
+  <File Type="PDI-FILE" Name="top_basys3.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="top_basys3_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="top_basys3_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="top_basys3.rcfi"/>
+  <File Type="CFI_FILE" Name="top_basys3.cfi"/>
+  <File Type="RNPI_FILE" Name="top_basys3.rnpi"/>
+  <File Type="NPI_FILE" Name="top_basys3.npi"/>
+  <File Type="RBD_FILE" Name="top_basys3.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="sevenseg_decoder.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sevenseg_decoder_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-SIMILARITY" Name="sevenseg_decoder_incremental_reuse_routed.rpt"/>
-  <File Type="RDI-RDI" Name="sevenseg_decoder.vdi"/>
-  <File Type="ROUTE-CLK" Name="sevenseg_decoder_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="sevenseg_decoder_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="sevenseg_decoder_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="sevenseg_decoder_bus_skew_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sevenseg_decoder_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sevenseg_decoder_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sevenseg_decoder_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="sevenseg_decoder_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="sevenseg_decoder_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="sevenseg_decoder.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="sevenseg_decoder_bus_skew_postroute_physopted.pb"/>
-  <File Type="BITSTR-NKY" Name="sevenseg_decoder.nky"/>
-  <File Type="BITSTR-BMM" Name="sevenseg_decoder_bd.bmm"/>
+  <File Type="BITSTR-LTX" Name="top_basys3.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_basys3.sysdef"/>
+  <File Type="BG-BGN" Name="top_basys3.bgn"/>
+  <File Type="BG-DRC" Name="top_basys3.drc"/>
+  <File Type="RDI-RDI" Name="top_basys3.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="OPT-HWDEF" Name="sevenseg_decoder.hwdef"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="sevenseg_decoder_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="sevenseg_decoder_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="sevenseg_decoder_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMING-PB" Name="sevenseg_decoder_timing_summary_routed.pb"/>
-  <File Type="OPT-DCP" Name="sevenseg_decoder_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="sevenseg_decoder_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="sevenseg_decoder_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="sevenseg_decoder_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="sevenseg_decoder_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sevenseg_decoder_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sevenseg_decoder_postroute_physopt_bb.dcp"/>
-  <File Type="PDI-FILE" Name="sevenseg_decoder.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="sevenseg_decoder_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="sevenseg_decoder_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="sevenseg_decoder.rcfi"/>
-  <File Type="CFI_FILE" Name="sevenseg_decoder.cfi"/>
-  <File Type="RNPI_FILE" Name="sevenseg_decoder.rnpi"/>
-  <File Type="NPI_FILE" Name="sevenseg_decoder.npi"/>
-  <File Type="RBD_FILE" Name="sevenseg_decoder.rbd"/>
-  <File Type="ROUTE-RQS" Name="sevenseg_decoder_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="sevenseg_decoder_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="top_basys3_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="top_basys3_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
@@ -80,14 +94,13 @@
     </File>
     <File Path="$PPRDIR/src/top_basys3.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="sevenseg_decoder"/>
+      <Option Name="TopModule" Val="top_basys3"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -105,6 +118,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/sevenseg_decoder.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -120,6 +141,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
