@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1740710190">
+  <File Type="REPORTS-TCL" Name="sevenseg_decoder_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="sevenseg_decoder_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="sevenseg_decoder.mmi"/>
+  <File Type="OPT-DRC" Name="sevenseg_decoder_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="sevenseg_decoder.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="sevenseg_decoder_route_status.pb"/>
+  <File Type="BG-BGN" Name="sevenseg_decoder.bgn"/>
+  <File Type="PLACE-UTIL" Name="sevenseg_decoder_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sevenseg_decoder_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="sevenseg_decoder_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="sevenseg_decoder.bin"/>
+  <File Type="PLACE-CTRL" Name="sevenseg_decoder_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="sevenseg_decoder_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="sevenseg_decoder_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="sevenseg_decoder.msk"/>
+  <File Type="BITSTR-RBT" Name="sevenseg_decoder.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sevenseg_decoder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sevenseg_decoder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="sevenseg_decoder_route_status.rpt"/>
+  <File Type="PA-TCL" Name="sevenseg_decoder.tcl"/>
+  <File Type="ROUTE-PWR" Name="sevenseg_decoder_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="sevenseg_decoder_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="sevenseg_decoder_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="sevenseg_decoder_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="sevenseg_decoder.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sevenseg_decoder_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sevenseg_decoder_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="sevenseg_decoder.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sevenseg_decoder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="sevenseg_decoder_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="sevenseg_decoder.vdi"/>
+  <File Type="ROUTE-CLK" Name="sevenseg_decoder_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="sevenseg_decoder_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="sevenseg_decoder_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="sevenseg_decoder_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sevenseg_decoder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sevenseg_decoder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sevenseg_decoder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="sevenseg_decoder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="sevenseg_decoder_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="sevenseg_decoder.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="sevenseg_decoder_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="sevenseg_decoder.nky"/>
+  <File Type="BITSTR-BMM" Name="sevenseg_decoder_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="sevenseg_decoder.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sevenseg_decoder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sevenseg_decoder_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sevenseg_decoder_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="sevenseg_decoder_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="sevenseg_decoder_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="sevenseg_decoder_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="sevenseg_decoder_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sevenseg_decoder_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="sevenseg_decoder_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sevenseg_decoder_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sevenseg_decoder_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="sevenseg_decoder.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="sevenseg_decoder_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="sevenseg_decoder_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="sevenseg_decoder.rcfi"/>
+  <File Type="CFI_FILE" Name="sevenseg_decoder.cfi"/>
+  <File Type="RNPI_FILE" Name="sevenseg_decoder.rnpi"/>
+  <File Type="NPI_FILE" Name="sevenseg_decoder.npi"/>
+  <File Type="RBD_FILE" Name="sevenseg_decoder.rbd"/>
+  <File Type="ROUTE-RQS" Name="sevenseg_decoder_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="sevenseg_decoder_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/src/sevenseg_decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/top_basys3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sevenseg_decoder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/src/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

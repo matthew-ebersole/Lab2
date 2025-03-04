@@ -37,7 +37,8 @@ entity sevenseg_decoder is
 end sevenseg_decoder;
 
 architecture Behavioral of sevenseg_decoder is
-    with i_Hex select
+begin
+with i_Hex select
     o_seg_n <=   -- G is MSB and active low
             "1000000" when "0000", -- 0
             "1111001" when "0001", -- 1
@@ -57,7 +58,5 @@ architecture Behavioral of sevenseg_decoder is
             "0001110" when "1111", -- F
 
             "1111111" when others;
-begin
-
 
 end Behavioral;
