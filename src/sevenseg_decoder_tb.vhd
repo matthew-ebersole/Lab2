@@ -45,7 +45,7 @@ architecture Behavioral of sevenseg_decoder_tb is
   
 begin
 
-    sevenseg_decoder_inst : sevenseg_decoder port map (
+    uut_inst : sevenseg_decoder port map (
 			i_Hex => w_Hex,
 			o_seg_n => w_seg_n
         );
